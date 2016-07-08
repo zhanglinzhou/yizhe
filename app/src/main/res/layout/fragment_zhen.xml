@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dashen.xiangmu.fragment.ZhenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="品牌特卖"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:background="#E3493D"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.dashen.xiangmu.customview.MyGridView
+                android:id="@+id/gv_temai"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:numColumns="4"
+                android:gravity="center"></com.dashen.xiangmu.customview.MyGridView>
+            <ListView
+                android:id="@+id/listViewTeMai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

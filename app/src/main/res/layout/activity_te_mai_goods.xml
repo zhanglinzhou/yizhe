@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dashen.xiangmu.avtivity.TeMaiGoodsActivity">
+    <com.dashen.xiangmu.customview.CustomToolBar
+        android:id="@+id/toolBar_TeMai_Goods"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:myTitleText="商品详情"
+        app:leftImage="@mipmap/back2"
+        app:rightImage="@mipmap/back3"
+        android:background="#E3493D"></com.dashen.xiangmu.customview.CustomToolBar>
+    <WebView
+        android:id="@+id/web_view_TeMai_Goods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+
+</LinearLayout>

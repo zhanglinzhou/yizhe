@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.dashen.xiangmu.customview.CustomToolBar
+        android:id="@+id/toolBar_TeMai_Shop"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:myTitleText="店铺"
+        app:leftImage="@mipmap/back2"
+        app:myTitleColor="#fff"
+        android:background="#E3493D"></com.dashen.xiangmu.customview.CustomToolBar>
+    <FrameLayout
+        android:id="@+id/fLayoutShop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
